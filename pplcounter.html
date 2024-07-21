@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Basketball Scoreboard</title>
+	<link rel="stylesheet" type="text/css" href="pplcounter.css">
+
+	
+	<link rel="icon" type="image/x-icon" href="Images/Favicon.png">
+    <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="blackjack.html">BlackJack</a>
+            <a href="pplcounter.html">People Counter</a>
+            <a href="scoreboard.html"> Match Score-board</a>
+        </div>
+        </div>
+
+</head>
+<body>
+<div class="boardcontent">
+	<div class="container">
+        <h1 class="text"></h1>
+        <div class="scoreboard">
+           <div class="team-container">
+            <h1>People entered:</h1>
+        <h2 id="count-el">0</h2>
+        <div class="button">
+        <button id="increment-btn" onclick="increment()">INCREMENT</button>
+        <button id="save-btn" onclick="save()">SAVE</button>
+        </div>
+        <p id="save-el">Previous entries: </p>
+        
+            </div>
+            </div>
+              </div>
+              
+           </div>
+        </div>
+     </div>
+</div>
+	<!-- JavaScript -->
+	<script type="text/javascript" src="pplcounter.js"></script>
+
+</body>
+</html>
